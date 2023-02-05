@@ -36,6 +36,9 @@ public class UserOrderForm {
     @NotBlank
     private String newAddress;
 
+    @NotBlank
+    private String distance;
+
     @Numeric
     @NotBlank
     private String box;
@@ -110,6 +113,15 @@ public class UserOrderForm {
     public void setNewAddress(String newAddress) {
         this.newAddress = newAddress;
     }
+
+    public String getDistance() {
+        return distance;
+    }
+
+    public void setDistance(String distance) {
+        this.distance = distance;
+    }
+
 
     public String getBox() {
         return box;

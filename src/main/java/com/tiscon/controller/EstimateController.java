@@ -27,7 +27,7 @@ public class EstimateController {
     /**
      * コンストラクタ
      *
-     * @param estimateDAO EstimateDaoクラス
+     * @param estimateDAO     EstimateDaoクラス
      * @param estimateService EstimateServiceクラス
      */
     public EstimateController(EstimateDao estimateDAO, EstimateService estimateService) {
