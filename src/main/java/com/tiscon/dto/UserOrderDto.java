@@ -18,6 +18,8 @@ public class UserOrderDto {
 
     private String distance;
 
+    private String month;
+
     private String box;
 
     private String bed;
@@ -90,6 +92,14 @@ public class UserOrderDto {
 
     public void setDistance(String distance) {
         this.distance = distance;
+    }
+
+    public String getMonth() {
+        return month;
+    }
+
+    public void setMonth(String month) {
+        this.month = month;
     }
 
     public int getBox() {

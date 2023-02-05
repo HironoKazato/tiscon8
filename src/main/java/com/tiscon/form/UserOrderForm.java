@@ -39,6 +39,9 @@ public class UserOrderForm {
     @NotBlank
     private String distance;
 
+    @NotBlank
+    private String month;
+
     @Numeric
     @NotBlank
     private String box;
@@ -120,6 +123,14 @@ public class UserOrderForm {
 
     public void setDistance(String distance) {
         this.distance = distance;
+    }
+
+    public String getMonth() {
+        return month;
+    }
+
+    public void setMonth(String month) {
+        this.month = month;
     }
 
 
